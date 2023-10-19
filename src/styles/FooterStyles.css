@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* adjust as needed */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer {
+    flex-shrink: 0; /* This ensures that the footer won't shrink smaller than its content */
+  }
+  
+  .footer i {
+    background: darkorange;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+    font-size: 24px; /* adjust size as needed */
+  }
+  
+  .footer i:hover {
+    background: slateblue;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  

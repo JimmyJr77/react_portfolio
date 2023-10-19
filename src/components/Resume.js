@@ -25,16 +25,16 @@ function Resume() {
 
             <div className="w-100 mt-4">
                 <header className="text-center mb-4">
-                    <h1 className="orange">JAMES P. O’BRIEN JR., MBA</h1>
+                    <h2 className="orange">JAMES P. O’BRIEN JR., MBA</h2>
                     <p>
                         <a href="tel:6198385897">619.838.5897</a> | { }
                         <a href="mailto:jimmyjr.obrien@gmail.com"> jimmyjr.obrien@gmail.com</a> | { }
-                        <a href="www.linkedin.com/in/jimmyjrobrien/" target="_blank" rel="noreferrer">www.linkedin.com/in/jimmyjrobrien/</a>
+                        <a href="www.linkedin.com/in/jimmyjrobrien/" target="_blank" rel="noreferrer">www.linkedin.com/in/jimmyjrobrien/</a> |
+                        <ResumeDownload/>
                     </p>
                     <p>TS/SCI with CI Polygraph</p>
                     <hr style={{ border: "none", height: "1px", backgroundColor: "grey" }} />
                 </header>
-
                 <h2 className="text-center mb-3">AI Solutions Architect</h2>
                 <p className='text-center'>
                     Former Marine Corps intelligence officer and entrepreneur rooted in data analytics, team building, and project management. 15+ years of experience planning and executing large, time sensitive projects. 25+ years of intimate work within and for DoD, cyber, and military intelligence communities. 7 years leading product development and sales. Put to market 20 products and was featured on Shark Tank. 4+ years leading AI/ML solutioning and software dev teams. Educated in business management with a breadth of experience. Creative and logical with strong EQ and leadership.
@@ -157,7 +157,6 @@ function Resume() {
                                     <li>Red Team Certificate (Problem Framing) | Marine Corps University</li>
                                     <li>PMP Course Certificate | Syracuse University (IVMF Program, Non-PMI Certificate)</li>
                                 </ul>
-
                             </div>
                         </div>
                     </div>
@@ -196,6 +195,19 @@ function Resume() {
                     </div>
                 </div>
             </div>
+        </div>
+    );
+}
+
+
+
+function ResumeDownload() {
+    return (
+        <div className="resume-download">
+            {/* Downloadable Resume Link */}
+            <a href="/jpo_resume.pdf" download="jpo_resume.pdf" className="resume-download-link">
+                Download My Resume
+            </a>
         </div>
     );
 }

@@ -1,3 +1,18 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#app { /* This is usually the root id of React apps, but use whatever is the root of your app */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-content {
+  flex: 1 0 auto;  /* This will take up all the space it can */
+}
+
 .orange {
   color: darkorange;
 }

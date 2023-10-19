@@ -4,21 +4,29 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
     return (
-        <Router>
-            <div>
-                <GlobalStyles />
-                    <Header />
-                        <Routes>
-                        <Route path="/" element={<AboutMe />} index />
-                        <Route path="/resume" element={<Resume />} />
-                        <Route path="/contact" element={<Contact />} />
-                        </Routes>
-            </div>
-        </Router>
+      <div id="app">
+        <div className="main-content">
+          <Router>
+              <div>
+                  <GlobalStyles />
+                  <Header />
+                  <Routes>
+                      <Route path="/" element={<AboutMe />} index />
+                      <Route path="/resume" element={<Resume />} />
+                      <Route path="/contact" element={<Contact />} />
+                  </Routes>
+              </div>
+          </Router>
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
     );
 }
 
