@@ -11,12 +11,12 @@ function App() {
         <Router>
             <div>
                 <GlobalStyles />
-                <Header />
-                <Routes>
-                  <Route path="/" element={<AboutMe />} index />
-                  <Route path="/resume" element={<Resume />} />
-                  <Route path="/contact" element={<Contact />} />
-                </Routes>
+                    <Header />
+                        <Routes>
+                        <Route path="/" element={<AboutMe />} index />
+                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/contact" element={<Contact />} />
+                        </Routes>
             </div>
         </Router>
     );

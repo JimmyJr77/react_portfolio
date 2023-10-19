@@ -6,12 +6,22 @@ export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const Logo = styled.div`
     font-size: 1.5rem;
     color: #fff;
     font-weight: bold;
+    margin-bottom: 1rem;
+
+    @media (min-width: 769px) {
+        margin-bottom: 0;
+    }
 `;
 
 export const Nav = styled.nav`
@@ -32,8 +42,8 @@ export const Nav = styled.nav`
                 left: 0;
                 right: 0;
                 height: 2px;
-                background-color: orange;
-                box-shadow: 0 0 5px orange;
+                background-color: darkorange;
+                box-shadow: 0 0 5px darkorange;
             }
         }
     }
