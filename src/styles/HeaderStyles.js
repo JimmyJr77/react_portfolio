@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
-    background-color: #222;
+    background-color: black;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@ export const Nav = styled.nav`
         padding: 0.5rem;
         
         &:hover {
-            color: orange;
+            color: #FF4E00;
 
             &::after {
                 content: '';
@@ -42,8 +42,8 @@ export const Nav = styled.nav`
                 left: 0;
                 right: 0;
                 height: 2px;
-                background-color: darkorange;
-                box-shadow: 0 0 5px darkorange;
+                background-color: #FF4E00;
+                box-shadow: 0 0 5px #FF4E00;
             }
         }
     }

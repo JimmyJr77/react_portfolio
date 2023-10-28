@@ -1,22 +1,23 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
 import '../App.css';
-import '../styles/FooterStyles.css';
+import { FooterContainer, Icon } from '../styles/FooterStyles';
 
 function Footer() {
     return (
-        <div className="footer">
+        <FooterContainer>
             <a href="https://github.com/jimmyjr77" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github"></i>
+                <Icon className="fa fa-github" />
             </a>
             <a href="https://www.linkedin.com/in/jimmyjrobrien/" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-linkedin"></i>
+                <Icon className="fa fa-linkedin" />
             </a>
             <a href="https://twitter.com/trackdaddy" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-twitter"></i>
+                <Icon className="fa fa-twitter" />
             </a>
-        </div>
+        </FooterContainer>
     );
 }
 
 export default Footer;
+

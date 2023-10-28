@@ -1,14 +1,13 @@
 import React from 'react';
 import jimmyPic from '../assets/images/jimmy_pic.jpg';
-import '../styles/AboutMeStyles.css';
-import '../styles/ProfilePic.css';
+import { PulseOrange, PulseBlue } from '../styles/ProfilePicStyles';
 
 function AboutMe() {
     return (
         <div className="App container d-flex flex-column align-items-center vh-100">
             <div className="position-relative">
-                <div className="pulse-blue mt-4"></div> 
-                <div className="pulse-orange mt-4"></div>
+                <PulseBlue className="mt-4" /> 
+                <PulseOrange className="mt-4" />
                 <div className="rounded-circle bg-cover my-4" style={{ 
                     width: '150px', 
                     height: '150px', 
@@ -16,8 +15,7 @@ function AboutMe() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     zIndex: 1
-                }}>
-                </div>
+                }} />
             </div>
 
             <div className="mt-3 text-white text-center">
@@ -28,4 +26,3 @@ function AboutMe() {
 }
 
 export default AboutMe;
-

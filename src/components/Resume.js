@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Resume() {
     return (
-        <div className="App container d-flex flex-column align-items-center vh-100">
+        <div className="App container d-flex flex-column align-items-center">
             <div className="position-relative mt-4">
                 <div className="pulse-blue"></div> 
                 <div className="pulse-orange"></div>
