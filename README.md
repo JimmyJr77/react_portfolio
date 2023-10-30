@@ -1,102 +1,105 @@
-# Social Media API Setup
+# My Portfolio
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-100%-yellow)
+![JavaScript](https://img.shields.io/badge/JavaScript-92%-yellow) ![HTML](https://img.shields.io/badge/HTML-4%-red) ![CSS](https://img.shields.io/badge/CSS-4%-blue) ![REACT](https://img.shields.io/badge/REACT-green)
 
 A video demonstrating functionality can be found [here](https://drive.google.com/file/d/1-LwKzfg_fWVR44r-MxqiJ1zpgGjk4mPp/view).
 
 ## Description
+
+Welcome to my personal portfolio, a React-based web application showcasing my skills, projects, and professional journey. Designed with a user-friendly interface and responsive design, this portfolio is a testament to my development proficiency and aesthetic sensibility.
+
 #### Motivation:
-The proliferation of social media platforms has resulted in users seeking a streamlined, backend-focused system where they can interact without the distractions of modern frontend designs.
+
+The motivation behind creating this portfolio is to have a personal space on the internet where I can showcase my skills, projects, and journey in the tech industry. It serves as a comprehensive platform for potential employers, clients, and fellow developers to get to know me better and view my work.
 
 #### Why Build:
-This API was created to provide a foundation for developers to build upon, potentially integrating machine learning models, frontends, or other systems to create a complete social media platform.
+
+Building a personal portfolio is crucial for a developer as it acts as a practical example of what I can do, not just what I say I can do. It reflects my personality, my skills, and my ability to create a user-centric, accessible, and aesthetically pleasing web application.
 
 #### Problem Solved:
-The API provides an organized system for user interactions, including adding and managing thoughts, reactions, and even friend connections, ensuring data integrity and smooth operations.
+
+This portfolio solves the problem of online presence for a developer. Instead of relying solely on resumes and cover letters, I now have a platform that speaks louder about my capabilities, achievements, and potential.
 
 #### What Was Learned:
-Through the development of this API, the intricacies of creating relational data in non-relational databases, error handling, and efficient querying techniques using Mongoose and MongoDB were thoroughly understood.
+
+Throughout the development of this portfolio, I've learned advanced React concepts, routing with React Router, styling with CSS, and creating a consistent and appealing user interface. I've also gained experience in deploying React applications and ensuring they are mobile-responsive and accessible.
 
 ## Table of Contents
+
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
-  * [Badges](#badges)
   * [Features](#features)
   * [How to Contribute](#how-to-contribute)
+  * [Questions](#questions)
 
 ## Installation Instructions
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 #### Step 1:
-Ensure you have MongoDB and Node.js installed on your computer.
+
+Ensure you have Node.js installed on your computer.
 
 #### Step 2:
+
 Clone this GitHub repository to your local machine using git clone.
 
 #### Step 3:
+
 Navigate to the root directory of the project in the terminal.
 
 #### Step 4:
-Install the required dependencies by running npm install.
 
+Install the required dependencies by running `npm install`.
+
+#### Step 5:
+
+Run the application in development mode with `npm start`. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Usage
-The usage of this API largely depends on the front end or application that integrates with it. Below are screenshots that demonstrate functionality using Insomnia's rest API. With this API:
 
-![View of Insomnia: GET/read users](./Assets/images/insomnia_read_users.png)
+The portfolio is designed to be intuitive and easy to navigate. Here are the key sections and their functionalities:
 
-![View of Insomnia: POST/create new reaction](./Assets/images/insomnia_create_new_reaction.png)
+#### Home (About Me):
+Provides a brief introduction about myself and my journey in tech.
 
-![View of Insomnia: DELETE/delete reaction](./Assets/images/insomnia_delete_reactions.png)
+#### Resume:
+Showcases my educational background, skills, and professional experience.
 
-![View of Insomnia: PUT/update users](./Assets/images/insomnia_update_users.png)
+#### Contact:
+A form that allows visitors to get in touch with me directly through the website.
 
-#### Example 1:
-Users can create, view, update, and delete their profiles.
-
-#### Example 2:
-Users can post their thoughts, view the thoughts of others, and even edit or delete their previous thoughts.
-
-#### Example 3:
-Reactions can be added to thoughts, creating an interactive environment.
-
-#### Example 4:
-A user can add friends, creating a network of connections within the platform.
-
-#### Example 5:
-A comprehensive error handling system ensures that invalid operations, such as creating users with duplicate emails or usernames, are handled gracefully.
+#### Portfolio:
+Displays a collection of my projects with descriptions, technologies used, and links to the live versions or source code.
 
 ## Credits
 
-  * ChatGPT supported with general back and forth dialogue to better understand concepts and problem solve. 
-  * Documentation was referenced for a variety of troubleshooting.
+This portfolio is a product of countless hours of coding, designing, and learning. Special thanks to:
 
-#### Tutorials Followed:
-
-  * https://mongoosejs.com/docs/guides.html
-  * https://www.mongodb.com/basics/crud
-  * https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial
-  * https://chat.openai.com
-  * https://expressjs.com/
+  * The React documentation and community for providing invaluable resources and support.
+  * OpenAI's ChatGPT for assisting with coding queries and debugging.
+  * Various online forums and blogs for troubleshooting and inspiration.
 
 ## License
-MIT License
 
-## Badges
-  * [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-  * ![JavaScript](https://img.shields.io/badge/JavaScript-100%-yellow)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Features
-1. CRUD operations for users and thoughts.
-2. Ability to add and remove friends.
-3. Reactions can be added to thoughts, and individual reactions can also be removed.
-4. The API is designed with scalability in mind, ensuring efficient database operations.
-5. Error handling ensures that users receive appropriate feedback for any invalid operations.
+
+1. Responsive design ensuring compatibility with various devices and screen sizes.
+2. Interactive and user-friendly interface.
+3. Dynamic rendering of content using React.
+4. Utilizes React Router for seamless navigation without page reloads.
+5. Showcases a variety of projects, providing a comprehensive view of my skills.
 
 ## How to Contribute
+
+If you have suggestions on how to improve this portfolio or want to contribute:
+
 1. Fork this repository.
 2. Clone your forked repository to your machine.
 3. Create a new branch on your local machine.
@@ -105,9 +108,10 @@ MIT License
 6. Submit a pull request from your repository to the original project.
 7. Your PR will be reviewed and, if no issues are found, merged into the main project.
 
-## Questions 
-If you have any questions about the content, instructions, or how to get involved in this project, please contact: 
+## Questions
+
+If you have any questions about the portfolio or how to get in touch, please contact:
 
   * Jimmy O'Brien    
     GitHub Username: [jimmyjr77](https://github.com/jimmyjr77/)    
-    Email Address: jimmyjr.obrien@gmail.com    
+    Email Address: jimmyjr.obrien@gmail.com

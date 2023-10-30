@@ -48,7 +48,7 @@ const PortfolioCard = ({ project }) => {
       </ProjectLink>
       {/* Conditionally render the GitHub logo when hovering */}
       {isHovered && (
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" data-testid="github-link">
           <GitHubLogo src={githubLogo} alt="GitHub" />
         </a>
       )}
