@@ -4,7 +4,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-92%-yellow) ![HTML](https://img.shields.io/badge/HTML-4%-red) ![CSS](https://img.shields.io/badge/CSS-4%-blue) ![REACT](https://img.shields.io/badge/REACT-green)
 
-A video demonstrating functionality can be found [here](https://drive.google.com/file/d/1-LwKzfg_fWVR44r-MxqiJ1zpgGjk4mPp/view).
+A video demonstrating functionality can be found [here](https://jimmy-portfolio-f87d279adcba.herokuapp.com/).
 
 ## Description
 

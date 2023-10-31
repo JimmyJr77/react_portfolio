@@ -4,7 +4,10 @@ export const FooterContainer = styled.div`
   justify-content: center;
   display: flex;
   background-color: white;
-  
+  position:fixed;
+  bottom: 0px;
+  width: 100vw;
+  margin-top:125px;
 `;
 
 export const Icon = styled.i`

@@ -25,5 +25,5 @@ export const ProficienciesList = styled.ul`
 `;
 
 export const BlankDiv = styled.div`
-  height:25px;
+  height:100px;
 `;

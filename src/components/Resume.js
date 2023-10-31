@@ -4,6 +4,9 @@ import jimmyPic from '../assets/images/jimmy_pic.jpg';
 import '../styles/ProfilePic.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import {
+    BlankDiv
+  } from '../styles/ResumeStyles';
 
 
 function Resume() {
@@ -189,10 +192,10 @@ function Resume() {
                                 <p>
                                     Command Briefer for General Officers and unit commanders, 2-Star General Aide de Camp. Taught JPME I. Supported Cyber Operations. Supported Special Operations.
                                 </p>
-
                             </div>
                         </div>
                     </div>
+                    <BlankDiv />
                 </div>
             </div>
         </div>
