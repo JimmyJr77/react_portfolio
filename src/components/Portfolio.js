@@ -91,7 +91,7 @@ const portfolioData = [
         projectName: 'Trileos Clothing Store',
         projectImage: trileosClothingStore,
         languages: 'MERN, Stripe (eCommerce) connected',
-        projectLink: 'https://github.com/JimmyJr77/trileos',
+        projectLink: 'https://trileos-a2f4c74c92f2.herokuapp.com/',
         githubLink: 'https://github.com/JimmyJr77/trileos'
     },
 ];
